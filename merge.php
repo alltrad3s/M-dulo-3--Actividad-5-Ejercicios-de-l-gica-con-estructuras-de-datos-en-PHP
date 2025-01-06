@@ -40,6 +40,12 @@ function mergeSort(&$arr) {
     }
 }
 
+// Función auxiliar para imprimir arrays
+function imprimirArray($arr, $mensaje) {
+    echo $mensaje . "\n";
+    echo implode(", ", $arr) . "\n\n";
+}
+
 //Prueba
 echo "2. Prueba de Merge Sort (orden alfabético):\n";
 
