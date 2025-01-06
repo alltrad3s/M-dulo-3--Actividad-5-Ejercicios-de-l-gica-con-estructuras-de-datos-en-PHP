@@ -15,6 +15,12 @@ function bubbleSort(&$arr) {
     }
 }
 
+// Función auxiliar para imprimir arrays
+function imprimirArray($arr, $mensaje) {
+    echo $mensaje . "\n";
+    echo implode(", ", $arr) . "\n\n";
+}
+
 // Prueba
 echo "1. Prueba de Bubble Sort (orden descendente):\n";
 
